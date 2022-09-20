@@ -1,62 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-    background-color: black;
-    margin-bottom: 2px solid blue;
-    padding: 15px 0;
-    font-family: 'Barlow', sans-serif;
-    border-bottom: 2px solid #32b9cd;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
-.container{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction:row;
-    border-bottom: 2px rgb(0, 36, 114);;
-}
-
-.titulo{
-    color: rgb(21, 211, 173);
-    font-size: 14px;
-}
-
-.nav{
-    color: rgb(21, 211, 173);
-}
-
-.menu{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    color: #efb661;
-    width: 350px;
-    cursor: pointer;
-}
-
-.itens{
-    
-    font-size: 1rem;
-}
-
-/*
-Conteudo da pagina 
-*/
-
-/* --------------------------------------------------------- */
-
 /*
 Banner 
 */
@@ -115,23 +56,5 @@ Social
     width: 170px;
 }
 
-/* 
-----------------------------------------------------------
-*/
 
-/*
-    Rodapé
-*/
 
-footer{
-    background-color: #32b9cd;
-    padding: 45px 0;
-}
-
-footer .container{
-    justify-content: center;
-}
-
-footer p {
-    color: white;
-}
