@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-geral.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
     <title>AcquaTec</title>
 </head>
 <body>
@@ -19,8 +19,8 @@
                     <li class="itens"><a href="./index.html">Home</a></li>
                     <li class="itens">Simulador</li>
                     <li class="itens">|</li>
-                    <li class="itens agora"> <a href="./login.html">Login </a></li>
-                    <li class="itens"> <a href="./cadastro.html">Cadastro</a></li>
+                    <li class="itens"> <a href="./login.html">Login </a></li>
+                    <li class="itens agora"> <a href="./cadastro.html">Cadastro</a></li>
                 </ul>
             </div>
         </div>
@@ -30,9 +30,15 @@
         <section class="banner">
             <div class="container">
                 <div class="box-form">
-                    <h2>Olá de volta!</h2>
+                    <h2>Bem-vindo!</h2>
+
                     <div class="campo">
-                        <label for="txtEmail">Email: </label>
+                        <label for="txtName">Nome: </label>
+                        <input type="text" name="txtName" id="txtName" placeholder="Seu Nome">
+                    </div>
+
+                    <div class="campo">
+                        <label for="txtEmail">E-mail: </label>
                         <input type="email" name="txtEmail" placeholder="email@email.com" id="txtEmail">
                     </div>
 
@@ -41,7 +47,12 @@
                         <input type="password" name="txtPass" placeholder="*******" id="txtPass">
                     </div>
 
-                    <button>Entrar</button>
+                    <div class="campo">
+                        <label for="txtPassConfirm">Confirmação da Senha: </label>
+                        <input type="password" name="txtPassConfirm" placeholder="*******" id="txtPassConfirm">
+                    </div>
+
+                    <button>Cadastrar</button>
                 </div>
             </div>
         </section>
